@@ -32,9 +32,9 @@ void ExportOBJ::save(Geometry& model)
     fileOBJ << "# Begin list of vertices" << std::endl;
     for (auto vec : model.verts_) {
         fileOBJ << "v " <<
+            vec[2] << " " <<
             vec[0] << " " <<
-            vec[1] << " " <<
-            vec[2] << " 1.0" << std::endl;
+            -vec[1] << " 1.0" << std::endl;
 
     }
     fileOBJ << "# End list of vertices" << std::endl;
