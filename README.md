@@ -64,3 +64,7 @@ Finished writing OBJ in 0.0668869 seconds
 ```
 
 ![Fidget](https://github.com/baserinia/stl2obj/blob/master/example/Fidgit.png)
+
+## Auto Transfer stl to obj
+1. 將 `stoToObjAllFile.exe` 放到要轉檔資料夾
+2. 自動將stl檔轉成obj
